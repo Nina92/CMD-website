@@ -1,0 +1,1235 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.8em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+p {
+    font-size: 1.2em;
+}
+
+li a {
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+a {
+    color: #000057;
+}
+
+body > header {
+    background-color: #AE251D;
+}
+
+main {
+    background-color: #F7F7F7;
+}
+
+body > section {
+    background-color: #C8C8C8;
+}
+
+aside {
+    background-color: #F7B928;
+}
+
+body > footer {
+    background-color: #AE251D;
+}
+
+body > footer a {
+    color: #FFF;
+    font-size: 1em;
+}
+
+body > footer p {
+    font-size: 1.1em;
+}
+
+body > footer h2 {
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 30em) {
+    body {
+        margin: 0;
+    }
+
+    body > * {
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+
+    /*header*/
+    body > header {
+        box-sizing: border-box;
+        padding: 0.5em 0.8em 0.5em 0.8em;
+        width: 100%;
+    }
+
+    body > header h1 {
+        display: none;
+    }
+
+    body > header p {
+        display: none;
+    }
+
+    body > header img {
+        width: 8em;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #search-one {
+        display: none;
+    }
+
+    #search-two input {
+        width: 80%;
+    }
+
+    #search-two button {
+        width: 18%;
+    }
+
+    .icon {
+        width: 1.5em;
+
+    }
+    .to-profile {
+        display: inline-block;
+        float: right;
+        margin: 0;
+    }
+
+    /*nav*/
+    body > nav {
+        padding: 0;
+    }
+    body > nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: #F7B928;
+        overflow-x: scroll;
+        white-space: nowrap;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    body > nav ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    body > nav ul li {
+        padding: 0.5em;
+        display: inline-block;
+    }
+
+    body > nav ul li:first-of-type {
+        margin-left: 0.3em;
+    }
+
+    body > nav ul li:last-of-type {
+        margin-right: 0.3em;
+    }
+
+    body > nav ul a {
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+
+    .current-page {
+        background-color: #DE9B00;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div > h1:after {
+        content: url(img/arrow483.png);
+        float: right;
+    }
+
+    main > article h1:after {
+        content: url(img/arrow483.png);
+        float: right;
+    }
+
+    .related > h2:after {
+        content: url(img/arrow483.png);
+        float: right;
+    }
+
+    aside > section h2:after {
+        content: url(img/arrow483.png);
+        float: right;
+    }
+
+    .hideRelatedContent {
+        display: none;
+
+    }
+
+    #sitemap {
+        display: none;
+    }
+
+    #contact > p{
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    /*Formulierpagina*/
+    fieldset:first-child {
+        margin-top: 2em;
+    }
+
+    fieldset {
+        width: 95%;
+        padding: 0;
+        margin-bottom: 1em;
+        border-style: none;
+        display: flex;
+    }
+
+    fieldset > legend {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    fieldset > fieldset {
+        border-style: none;
+    }
+
+    fieldset > fieldset legend {
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    fieldset > label {
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5em;
+    }
+
+    fieldset >label:first-of-type {
+        margin-top: 0;
+    }
+
+    fieldset > label input {
+        width: 100%;
+    }
+
+    label > em {
+        font-size: 0.9em;
+    }
+
+    .inner-legend {
+        padding-top: 1em;
+    }
+
+    a[href$=".pdf"]:before {
+        content: url(img/pdf-icon.gif);
+    }
+
+    a[href$=".vcf"]:before {
+        content: url(img/vcard-icon.png);
+    }
+
+    a[href$=".jpg"]:before {
+        content: url(img/jpg-icon.png);
+    }
+
+    .related section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .related section ul li {
+        margin-bottom: 1em;
+    }
+
+    .hideFieldset {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 30em) and (max-width: 40em) {
+
+    body {
+        margin: 0;
+    }
+
+    body > * {
+        padding: 1em;
+    }
+
+    #search-two {
+        display: none;
+    }
+
+    main > * {
+        max-width: 45em;
+        margin: 0 auto;
+
+    }
+
+    .related > * {
+        max-width: 45em;
+        margin: 0 auto;
+    }
+
+    aside > * {
+        max-width: 45em;
+        margin: 0 auto;
+    }
+
+    body > footer > * {
+        max-width: 45em;
+        margin: 0 auto;
+    }
+
+    /*header*/
+    body > header {
+        box-sizing: border-box;
+        padding: 0.7em 1em 1.7em 1em;
+        width: 100%;
+    }
+
+    body > header h1 {
+        display: none;
+    }
+
+    body > header p {
+        display: none;
+    }
+
+    body > header img {
+        width: 30%;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #search-one {
+        float: right;
+    }
+
+    .icon {
+        width: 1.5em;
+        padding-right: 0.5em;
+
+    }
+    .to-profile {
+        display: inline-block;
+        float: right;
+        margin: 0;
+    }
+
+    /*nav*/
+    body > nav {
+        width: 100%;
+        padding: 0;
+    }
+
+    body > nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #F7B928;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    body > nav ul li {
+        padding: 0.5em;
+    }
+
+    body > nav ul li a:hover {
+        color: #F7F7F7;
+    }
+
+    body > nav ul a {
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+
+    .current-page {
+        background-color: #DE9B00;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact > p{
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    /*Formulierpagina*/
+    fieldset:first-child {
+        margin-top: 2em;
+    }
+
+    fieldset {
+        width: 50%;
+        padding: 0;
+        margin-bottom: 1em;
+        border-style: none;
+        display: flex;
+    }
+
+    fieldset > legend {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    fieldset > fieldset {
+        border-style: none;
+    }
+
+    fieldset > fieldset legend {
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    fieldset > label {
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5em;
+    }
+
+    fieldset >label:first-of-type {
+        margin-top: 0;
+    }
+
+    fieldset > label input {
+        width: 20em;
+    }
+
+    label > em {
+        font-size: 0.9em;
+    }
+
+    .inner-legend {
+        padding-top: 1em;
+    }
+
+    a[href$=".pdf"]:before {
+        content: url(img/pdf-icon.gif);
+    }
+
+    a[href$=".vcf"]:before {
+        content: url(img/vcard-icon.png);
+    }
+
+    a[href$=".jpg"]:before {
+        content: url(img/jpg-icon.png);
+    }
+
+    .related section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .related section ul li {
+        margin-bottom: 1em;
+    }
+
+    .hideFieldset {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 40em) and (max-width: 61em) {
+    body {
+        margin: 0;
+    }
+
+    body > * {
+        padding: 1em;
+    }
+
+    #search-two {
+        display: none;
+    }
+
+    main > article {
+        max-width: 45em;
+        margin: 0 auto;
+    }
+
+    .related > * {
+        max-width: 45em;
+        margin: 0 auto;
+    }
+
+    aside > * {
+        max-width: 45em;
+        margin: 0 auto;
+    }
+
+    body > footer > * {
+        max-width: 45em;
+        margin: 0 auto;
+    }
+
+    .to-profile:before {
+        content: "Hi, Nina!";
+        margin-right: 0.5em;
+    }
+
+    /*header*/
+    div {
+        max-width: 45em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body > header {
+        box-sizing: border-box;
+        padding: 0.7em 1em 0 1em;
+        width: 100%;
+    }
+
+    body > header h1 {
+        margin-bottom: 0.2em;
+        color: #F7B928;
+    }
+
+    body > header p {
+        margin-top: 0;
+        color: #F7F7F7;
+    }
+
+    body > header img {
+        width: 30%;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #search-one {
+        float: right;
+    }
+
+    .icon {
+        width: 1.5em;
+        padding-right: 0.5em;
+
+    }
+    
+    .to-profile {
+        display: inline-block;
+        float: right;
+        margin: 0;
+    }
+
+    /*nav*/
+    body > nav {
+        width: 100%;
+        padding: 0;
+    }
+
+    body > nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #F7B928;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    body > nav ul li {
+        padding: 0.5em;
+    }
+
+    body > nav ul li a:hover {
+        color: #F7F7F7;
+    }
+
+    body > nav ul a {
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+
+    .current-page {
+        background-color: #DE9B00;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact > p{
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    /*Formulierpagina*/
+    main > form {
+        margin-left: 2em;
+    }
+
+    fieldset:first-child {
+        margin-top: 2em;
+    }
+
+    fieldset {
+        width: 50%;
+        margin-bottom: 1em;
+        border-style: none;
+        display: flex;
+    }
+
+    fieldset > legend {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    fieldset > fieldset {
+        border-style: none;
+    }
+
+    fieldset > fieldset legend {
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    fieldset > label {
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5em;
+    }
+
+    fieldset >label:first-of-type {
+        margin-top: 0;
+    }
+
+    fieldset > label input {
+        width: 20em;
+    }
+
+    label > em {
+        font-size: 0.9em;
+    }
+
+    .inner-legend {
+        padding-top: 1em;
+    }
+
+    a[href$=".pdf"]:before {
+        content: url(img/pdf-icon.gif);
+    }
+
+    a[href$=".vcf"]:before {
+        content: url(img/vcard-icon.png);
+    }
+
+    a[href$=".jpg"]:before {
+        content: url(img/jpg-icon.png);
+    }
+
+    .related section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .related section ul li {
+        margin-bottom: 1em;
+    }
+
+    .hideFieldset {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 61em) and (max-width: 100em) {
+    body {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #search-two {
+        display: none;
+    }
+
+     img {
+    max-width: 100%;
+    }
+
+    #logo {
+        transition: 1.2s;
+    }
+
+    #logo:hover {
+        transform: rotateX(180deg);
+    }
+
+    .icon {
+        width: 1.8em;
+    }
+
+    .to-profile:before {
+        content: "Hi, Nina!";
+        margin-right: 0.5em;
+    }
+
+
+    /*header*/
+
+    body > header {
+        box-sizing: border-box;
+        padding: 1em 1em 0 1em;
+        width: 100%;
+    }
+
+    body > header h1 {
+        margin-bottom: 0.2em;
+        color: #F7B928;
+    }
+
+    body > header p {
+        margin-top: 0;
+        color: #F7F7F7;
+    }
+
+    body > header img {
+        width: 40%;
+    }
+
+    body > header form {
+        float: right;
+    }
+
+    .to-profile {
+        margin-right: 1em;
+        float: right;
+        font-size: 1.1em;
+    }
+
+
+    main {
+        box-sizing: border-box;
+        padding: 1em;
+        width: 60%;
+    }
+
+    main > article {
+        max-width: 45em;
+        margin: 0 auto;
+    }
+
+    aside {
+        box-sizing: border-box;
+        padding: 1em;
+        width: 20%;
+    }
+
+    .related {
+        box-sizing: border-box;
+        padding: 1em;
+        width: 20%;
+    }
+
+    /*nav*/
+    body > nav {
+        width: 100%;
+    }
+
+    body > nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #F7B928;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    body > nav ul li:first-child {
+        margin-left: 3%;
+    }
+
+    body > nav ul li:last-child {
+        margin-right: 3%;
+    }
+
+    body > nav ul li {
+        padding: 0.5em;
+    }
+
+    body > nav ul li a:hover {
+        color: #F7F7F7;
+    }
+
+    body > nav ul a {
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+
+    .current-page {
+        background-color: #DE9B00;
+    }
+
+    /*footer*/
+    #sitemap {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: left;
+    }
+
+    #contact {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: left;
+    }
+
+    #search {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: right;
+    }
+
+    #about {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: right;
+    }
+
+    #credits {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: left;
+    }
+
+    #feedback {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: right;
+        clear: right;
+    }
+
+    #contact > p{
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    /*Formulierpagina*/
+    div {
+        max-width: 45em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main > form {
+        margin-left: 2em;
+    }
+
+    fieldset:first-child {
+        margin-top: 2em;
+    }
+
+    fieldset {
+        width: 50%;
+        margin-bottom: 1em;
+        border-style: none;
+        display: flex;
+    }
+
+    fieldset > legend {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    fieldset > fieldset {
+        border-style: none;
+    }
+
+    fieldset > fieldset legend {
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    fieldset > label {
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5em;
+    }
+
+    fieldset >label:first-of-type {
+        margin-top: 0;
+    }
+
+    fieldset > label input {
+        width: 20em;
+    }
+
+    label > em {
+        font-size: 0.9em;
+    }
+
+    .inner-legend {
+        padding-top: 1em;
+    }
+
+    h4 + ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    a[href$=".pdf"] {
+        font-size: 1em;
+    }
+
+    a[href$=".vcf"] {
+        font-size: 1em;
+    }
+
+    a[href$=".jpg"] {
+        font-size: 1em;
+    }
+
+    a[href$=".pdf"]:before {
+        content: url(img/pdf-icon.gif);
+    }
+
+    a[href$=".vcf"]:before {
+        content: url(img/vcard-icon.png);
+    }
+
+    a[href$=".jpg"]:before {
+        content: url(img/jpg-icon.png);
+    }
+
+    .hideFieldset {
+        display: none;
+    }
+}
+
+@media (min-width: 100em) {
+    body {
+        max-width: 100em;
+        background-image: url(img/giftly.png);
+        background-repeat: repeat;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #search-two {
+        display: none;
+    }
+
+     img {
+    max-width: 100%;
+    }
+
+    #logo {
+        transition: 1.2s;
+    }
+
+    #logo:hover {
+        transform: rotateX(180deg);
+    }
+
+    .icon {
+        width: 1.8em;
+    }
+
+    .to-profile:before {
+        content: "Hi, Nina!";
+        margin-right: 0.5em;
+    }
+
+    /*header*/
+    body > header {
+        box-sizing: border-box;
+        padding: 1em 1em 0 1em;
+        width: 100%;
+    }
+
+    body > header h1 {
+        margin-bottom: 0.2em;
+        color: #F7B928;
+    }
+
+    body > header p {
+        margin-top: 0;
+        color: #F7F7F7;
+    }
+
+    body > header img {
+        width: 40%;
+    }
+
+    body > header form {
+        float: right;
+    }
+
+    .to-profile {
+        margin-right: 1em;
+        float: right;
+        font-size: 1.1em;
+    }
+
+    main {
+        box-sizing: border-box;
+        padding: 1em;
+        width: 60%;
+    }
+
+    main > article {
+        max-width: 45em;
+        margin: 0 auto;
+    }
+
+    aside {
+        box-sizing: border-box;
+        padding: 1em;
+        width: 20%;
+    }
+
+    .related {
+        box-sizing: border-box;
+        padding: 1em;
+        width: 20%;
+    }
+
+    /*nav*/
+    body > nav {
+        width: 100%;
+    }
+
+    body > nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #F7B928;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    body > nav ul li:first-child {
+        margin-left: 3%;
+    }
+
+    body > nav ul li:last-child {
+        margin-right: 3%;
+    }
+
+    body > nav ul li {
+        padding: 0.5em;
+    }
+
+    body > nav ul li a:hover {
+        color: #F7F7F7;
+    }
+
+    body > nav ul a {
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+
+    .current-page {
+        background-color: #DE9B00;
+    }
+
+    /*footer*/
+    #sitemap {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: left;
+    }
+
+    #contact {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: left;
+    }
+
+    #search {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: right;
+    }
+
+    #about {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: right;
+    }
+
+    #credits {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: left;
+    }
+
+    #feedback {
+        width: calc(100% / 3);
+        box-sizing: border-box;
+        padding: 1em;
+        float: right;
+        clear: right;
+    }
+
+    #contact > p{
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    /*Formulierpagina*/
+    div {
+        max-width: 45em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main > form {
+        margin-left: 2em;
+    }
+
+    fieldset:first-child {
+        margin-top: 2em;
+    }
+
+    fieldset {
+        width: 50%;
+        margin-bottom: 1em;
+        border-style: none;
+        display: flex;
+    }
+
+    fieldset > legend {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    fieldset > fieldset {
+        border-style: none;
+    }
+
+    fieldset > fieldset legend {
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    fieldset > label {
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5em;
+    }
+
+    fieldset >label:first-of-type {
+        margin-top: 0;
+    }
+
+    fieldset > label input {
+        width: 20em;
+    }
+
+    label > em {
+        font-size: 0.9em;
+    }
+
+    .inner-legend {
+        padding-top: 1em;
+    }
+
+    h4 + ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    a[href$=".pdf"] {
+        font-size: 1em;
+    }
+
+    a[href$=".vcf"] {
+        font-size: 1em;
+    }
+
+    a[href$=".jpg"] {
+        font-size: 1em;
+    }
+
+
+    a[href$=".pdf"]:before {
+        content: url(img/pdf-icon.gif);
+    }
+
+    a[href$=".vcf"]:before {
+        content: url(img/vcard-icon.png);
+    }
+
+    a[href$=".jpg"]:before {
+        content: url(img/jpg-icon.png);
+    }
+
+    .hideFieldset {
+        display: none;
+    }
+}
